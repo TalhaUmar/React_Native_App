@@ -1,0 +1,9 @@
+{
+    "extends": "rallycoding",
+    "rules": {
+        "no-unused-expressions": ["error", {"allowTernary": true}],
+        "no-underscore-dangle": ["error", { "allow": ["__typename"] }],
+        "no-param-reassign": ["error", { "props": false }],
+        "max-len": ["error", 300]
+      }
+}
